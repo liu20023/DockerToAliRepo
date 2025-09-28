@@ -6,7 +6,6 @@ nacos/nacos-server:v2.1.0
 redis
 ghcr.io/sozercan/llama3.1:8b
 ghcr.io/open-webui/open-webui:ollama
-ghcr.io/open-webui/open-webui:cuda
 calico:v3.27.5
 calico
 kubernetes:1.29.14
@@ -20,6 +19,7 @@ neo4j:5.26.0-community-bullseye
 mongo:4.4
 docker.n8n.io/n8nio/n8n:latest
 nacos/nacos-server:v3.0.1
+ghcr.io/open-webui/open-webui:cuda
 
 
 
