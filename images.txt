@@ -19,5 +19,6 @@ nacos/nacos-server:v3.0.1
 calico:v3.29.6
 calico:v3.27.5
 calico
+kubernetes:1.29.14
 
 
