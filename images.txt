@@ -18,5 +18,6 @@ docker.n8n.io/n8nio/n8n:latest
 nacos/nacos-server:v3.0.1
 calico:v3.29.6
 calico:v3.27.5
+calico
 
 
