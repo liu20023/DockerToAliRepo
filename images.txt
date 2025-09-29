@@ -5,39 +5,70 @@
 #redis
 #ghcr.io/sozercan/llama3.1:8b
 #ghcr.io/open-webui/open-webui:ollama
+
+#CentOS7 k8s v1.26.15 Start
+# k8s
+​registry.k8s.io/kube-apiserver:v1.26.15​
+​​registry.k8s.io/kube-controller-manager:v1.26.15​
+​​registry.k8s.io/kube-scheduler:v1.26.15​
+​​registry.k8s.io/kube-proxy:v1.26.15​
+​​registry.k8s.io/etcd:3.5.13-0​
+​​registry.k8s.io/coredns/coredns:v1.10.1​
+​​registry.k8s.io/pause:3.9​
+
+#网络插件
+​​docker.io/calico/node:v3.26.4
+​​docker.io/calico/cni:v3.26.4​​​
+docker.io/calico/kube-controllers:v3.26.4
+​quay.io/coreos/flannel:v0.22.2
+
+#存储插件
+​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+longhornio/longhorn-manager:v1.5.3​​​<br>​​longhornio/longhorn-ui:v1.5.3
+
+#监控 & 日志（Prometheus + Grafana）
+​​quay.io/prometheus/prometheus:v2.47.0
+​​grafana/grafana:10.2.3
+grafana/loki:v2.9.2
+grafana/promtail:v2.9.2
+
+#CentOS7 k8s v1.26.15 end
+
+
+
 # 网络组件
 #quay.io/coreos/flannel:v0.25.0
 #quay.io/coreos/flannel:v0.23.0
 #quay.io/cilium/cilium:v1.16.5
-docker.io/calico/node:v3.27.5
-docker.io/calico/cni:v3.27.5
-docker.io/calico/node:v3.29.6
-docker.io/calico/cni:v3.29.6
+#docker.io/calico/node:v3.27.5
+#docker.io/calico/cni:v3.27.5
+#docker.io/calico/node:v3.29.6
+#docker.io/calico/cni:v3.29.6
 
 # k8s
-registry.k8s.io/kube-apiserver:1.29.14
-registry.k8s.io/kube-controller-manager:1.29.14
-registry.k8s.io/kube-scheduler:1.29.14
-registry.k8s.io/kube-proxy:1.29.14
-registry.k8s.io/etcd:1.29.14
-registry.k8s.io/coredns/coredns:1.29.14
-registry.k8s.io/pause:1.29.14
-registry.k8s.io/ingress-nginx/controller:v1.9.4
+#registry.k8s.io/kube-apiserver:1.29.14
+#registry.k8s.io/kube-controller-manager:1.29.14
+#registry.k8s.io/kube-scheduler:1.29.14
+#registry.k8s.io/kube-proxy:1.29.14
+#registry.k8s.io/etcd:1.29.14
+#registry.k8s.io/coredns/coredns:1.29.14
+#registry.k8s.io/pause:1.29.14
+#registry.k8s.io/ingress-nginx/controller:v1.9.4
 
 #存储插件
-k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
-longhornio/longhorn-manager:v1.6.1
-docker.io/grafana/grafana:10.3.3
+#k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#longhornio/longhorn-manager:v1.6.1
+#docker.io/grafana/grafana:10.3.3
 
 #cr2.fit2cloud.com/1panel/maxkb
 
 #k8s管理
-kubesphere/ks-installer:v3.4.1
+#kubesphere/ks-installer:v3.4.1
 
 #neo4j:5.26.0-community-bullseye
-mongo:4.4
+#mongo:4.4
 #docker.n8n.io/n8nio/n8n:latest
-nacos/nacos-server:v3.0.1
+#nacos/nacos-server:v3.0.1
 #ghcr.io/open-webui/open-webui:cuda
 
 #消息队列
@@ -45,19 +76,20 @@ docker.io/rabbitmq:3.13-management
 docker.io/bitnami/kafka:3.7
 
 #缓存
-docker.io/memcached:1.6
+#docker.io/memcached:1.6
 
 #前端/后端服务
 #nginx:1.27.2
-docker.io/node:20-alpine
+#docker.io/node:20-alpine
 docker.io/openjdk:17-jdk
+docker.io/eclipse-temurin:8u392-b08-jdk-focal
 
 #监控与日志
-quay.io/prometheus/prometheus:v2.51.2
-quay.io/prometheus/prometheus:v2.48.1
-docker.io/grafana/grafana:10.4.3
-grafana/loki:v3.0.0
-grafana/promtail:v3.0.0
+#quay.io/prometheus/prometheus:v2.51.2
+#quay.io/prometheus/prometheus:v2.48.1
+#docker.io/grafana/grafana:10.4.3
+#grafana/loki:v3.0.0
+#grafana/promtail:v3.0.0
 
 #es
 docker.elastic.co/elasticsearch/elasticsearch-wolfi:8.17.0
