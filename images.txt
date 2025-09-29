@@ -24,7 +24,7 @@ docker.io/calico/kube-controllers:v3.26.4
 #quay.io/coreos/flannel:v0.22.2
 
 #存储插件
-​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 longhornio/longhorn-manager:v1.5.3
 longhornio/longhorn-ui:v1.5.3
 
