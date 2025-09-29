@@ -29,12 +29,13 @@ longhornio/longhorn-manager:v1.5.3
 longhornio/longhorn-ui:v1.5.3
 
 #监控 & 日志（Prometheus + Grafana）
-​​quay.io/prometheus/prometheus:v2.47.0
+​​#quay.io/prometheus/prometheus:v2.47.0
 ​​grafana/grafana:10.2.3
 grafana/loki:v2.9.2
 grafana/promtail:v2.9.2
 
 #CentOS7 k8s v1.26.15 end
+
 
 # 网络组件
 #quay.io/coreos/flannel:v0.25.0
