@@ -9,10 +9,10 @@
 #CentOS7 k8s v1.26.15 Start
 # k8s
 ​registry.k8s.io/kube-apiserver:v1.26.15​
-​​registry.k8s.io/kube-controller-manager:v1.26.15​
+registry.k8s.io/kube-controller-manager:v1.26.15​
 ​​registry.k8s.io/kube-scheduler:v1.26.15​
 ​​registry.k8s.io/kube-proxy:v1.26.15​
-​​registry.k8s.io/etcd:3.5.13-0​
+​​registry.k8s.io/etcd:3.5.13-0
 ​​registry.k8s.io/coredns/coredns:v1.10.1​
 ​​registry.k8s.io/pause:3.9​
 
@@ -20,7 +20,7 @@
 ​​docker.io/calico/node:v3.26.4
 ​​docker.io/calico/cni:v3.26.4​​​
 docker.io/calico/kube-controllers:v3.26.4
-​quay.io/coreos/flannel:v0.22.2
+quay.io/coreos/flannel:v0.22.2
 
 #存储插件
 ​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
