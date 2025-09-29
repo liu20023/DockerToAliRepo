@@ -8,25 +8,25 @@
 
 #CentOS7 k8s v1.26.15 Start
 # k8s
-#registry.aliyuncs.com/google_containers/kube-apiserver:1.26.15
-#registry.aliyuncs.com/google_containers/kube-controller-manager:1.26.15
-#registry.aliyuncs.com/google_containers/kube-scheduler:1.26.15
-#registry.aliyuncs.com/google_containers/kube-proxy:1.26.15
-#registry.aliyuncs.com/google_containers/etcd:3.5.13-0
-#registry.aliyuncs.com/google_containers/coredns/coredns:1.10.1
-#registry.aliyuncs.com/google_containers/pause:1.26.15
-#registry.aliyuncs.com/google_containers/ingress-nginx/controller:v1.9.4
+#n registry.aliyuncs.com/google_containers/kube-apiserver:1.26.15
+#n registry.aliyuncs.com/google_containers/kube-controller-manager:1.26.15
+#n registry.aliyuncs.com/google_containers/kube-scheduler:1.26.15
+#n registry.aliyuncs.com/google_containers/kube-proxy:1.26.15
+#n registry.aliyuncs.com/google_containers/etcd:3.5.13-0
+#n registry.aliyuncs.com/google_containers/coredns/coredns:1.10.1
+#n registry.aliyuncs.com/google_containers/pause:1.26.15
+#n registry.aliyuncs.com/google_containers/ingress-nginx/controller:v1.9.4
 
 #网络插件
-docker.io/calico/node:v3.26.4
-docker.io/calico/cni:v3.26.4
-docker.io/calico/kube-controllers:v3.26.4
-#quay.io/coreos/flannel:v0.22.2
+#docker.io/calico/node:v3.26.4
+#docker.io/calico/cni:v3.26.4
+#docker.io/calico/kube-controllers:v3.26.4
+#n quay.io/coreos/flannel:v0.22.2
 
 #存储插件
-#​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
-longhornio/longhorn-manager:v1.5.3
-longhornio/longhorn-ui:v1.5.3
+#n ​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#longhornio/longhorn-manager:v1.5.3
+#longhornio/longhorn-ui:v1.5.3
 
 #监控 & 日志（Prometheus + Grafana）
 ​​#quay.io/prometheus/prometheus:v2.47.0
