@@ -18,15 +18,15 @@
 #registry.aliyuncs.com/google_containers/ingress-nginx/controller:v1.9.4
 
 #网络插件
-​​docker.io/calico/node:v3.26.4
-​​docker.io/calico/cni:v3.26.4​​​
+docker.io/calico/node:v3.26.4
+docker.io/calico/cni:v3.26.4​​​
 docker.io/calico/kube-controllers:v3.26.4
 quay.io/coreos/flannel:v0.22.2
 
 #存储插件
 ​​k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 longhornio/longhorn-manager:v1.5.3
-​​longhornio/longhorn-ui:v1.5.3
+longhornio/longhorn-ui:v1.5.3
 
 #监控 & 日志（Prometheus + Grafana）
 ​​quay.io/prometheus/prometheus:v2.47.0
@@ -96,6 +96,3 @@ docker.elastic.co/elasticsearch/elasticsearch-wolfi:8.17.0
 docker.elastic.co/elasticsearch/elasticsearch:8.17.0
 docker.elastic.co/kibana/kibana:8.17.0
 #
-
-
-
