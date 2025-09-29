@@ -6,9 +6,9 @@
 #ghcr.io/sozercan/llama3.1:8b
 #ghcr.io/open-webui/open-webui:ollama
 # 网络组件
-quay.io/coreos/flannel:v0.25.0
-quay.io/coreos/flannel:v0.23.0
-quay.io/cilium/cilium:v1.16.5
+#quay.io/coreos/flannel:v0.25.0
+#quay.io/coreos/flannel:v0.23.0
+#quay.io/cilium/cilium:v1.16.5
 docker.io/calico/node:v3.27.5
 docker.io/calico/cni:v3.27.5
 docker.io/calico/node:v3.29.6
