@@ -31,8 +31,8 @@
 #监控 & 日志（Prometheus + Grafana）
 #quay.io/prometheus/prometheus:v2.47.0
 grafana/grafana:10.2.3
-grafana/loki:v2.9.2
-grafana/promtail:v2.9.2
+#n grafana/loki:v2.9.2
+#n grafana/promtail:v2.9.2
 
 #CentOS7 k8s v1.26.15 end
 
