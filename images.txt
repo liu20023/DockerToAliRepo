@@ -73,8 +73,8 @@ grafana/grafana:10.2.3
 #ghcr.io/open-webui/open-webui:cuda
 
 #消息队列
-docker.io/rabbitmq:3.13-management
-docker.io/bitnami/kafka:3.7
+#docker.io/rabbitmq:3.13-management
+#n docker.io/bitnami/kafka:3.7
 
 #缓存
 #docker.io/memcached:1.6
