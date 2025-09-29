@@ -36,8 +36,6 @@ grafana/promtail:v2.9.2
 
 #CentOS7 k8s v1.26.15 end
 
-
-
 # 网络组件
 #quay.io/coreos/flannel:v0.25.0
 #quay.io/coreos/flannel:v0.23.0
