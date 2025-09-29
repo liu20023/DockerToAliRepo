@@ -8,14 +8,14 @@
 
 #CentOS7 k8s v1.26.15 Start
 # k8s
-registry.aliyuncs.com/google_containers/kube-apiserver:1.26.15-150500.1.1
-registry.aliyuncs.com/google_containers/kube-controller-manager:1.26.15-150500.1.1
-registry.aliyuncs.com/google_containers/kube-scheduler:1.26.15-150500.1.1
-registry.aliyuncs.com/google_containers/kube-proxy:1.26.15-150500.1.1
-registry.aliyuncs.com/google_containers/etcd:3.5.13-0
-registry.aliyuncs.com/google_containers/coredns/coredns:1.10.1
-registry.aliyuncs.com/google_containers/pause:1.26.15
-registry.aliyuncs.com/google_containers/ingress-nginx/controller:v1.9.4
+registry.k8s.io/kube-apiserver:1.26.15-150500.1.1
+registry.k8s.io/kube-controller-manager:1.26.15-150500.1.1
+registry.k8s.io/kube-scheduler:1.26.15-150500.1.1
+registry.k8s.io/kube-proxy:1.26.15-150500.1.1
+registry.k8s.io/etcd:3.5.13-0
+registry.k8s.io/coredns/coredns:1.10.1
+registry.k8s.io/pause:1.26.15
+registry.k8s.io/ingress-nginx/controller:v1.9.4
 
 #网络插件
 #docker.io/calico/node:v3.26.4
